@@ -14,6 +14,8 @@ Perfect for creating modern, responsive web apps with a rich-text editor.
 
 The editor setup in this project can also be reused in **Vue 3** projects.
 
+![image](https://github.com/user-attachments/assets/97c4dbc0-37fc-4a8b-a9fd-9688c6220d7a)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
