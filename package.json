@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "npm run generate && npx gh-pages -d .output/public"
+  },
+  "dependencies": {
+    "@tiptap/extension-history": "^2.9.1",
+    "@tiptap/extension-text-align": "^2.9.1",
+    "@tiptap/extension-underline": "^2.8.0",
+    "@tiptap/pm": "^2.8.0",
+    "@tiptap/starter-kit": "^2.8.0",
+    "@tiptap/vue-3": "^2.8.0",
+    "lucide-vue-next": "^0.454.0",
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.13"
+  }
+}
